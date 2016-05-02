@@ -30,7 +30,7 @@ class SenderTest extends \PHPUnit_Framework_TestCase
             'name' => 'Isaque de Souza',
             'documents' => null,
             'phone' => null,
-            'bornDate' => '1988-03-21',
+            'bornDate' => '1988-03-21'
         ];
         $sender = new Sender($data);
         $this->assertEquals($data, $sender->toArray());

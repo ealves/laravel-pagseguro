@@ -95,12 +95,6 @@ class Information extends InformationAbstract
     protected $sender;
 
     /**
-     * Sender
-     * @var SenderInterface
-     */
-    protected $creditCard;
-
-    /**
      * Shipping
      * @var ShippingInterface
      */
@@ -228,16 +222,6 @@ class Information extends InformationAbstract
     }
 
     /**
-     * Get CreditCard
-     * @return CreditCardInterface
-     */
-    public function getCreditCard()
-    {
-        return $this->creditCard;
-    }
-
-
-    /**
      * Get Shipping
      * @return ShippingInterface
      */
@@ -353,16 +337,6 @@ class Information extends InformationAbstract
     protected function setSender(SenderInterface $sender)
     {
         $this->sender = $sender;
-        return $this;
-    }
-
-    /**
-     * @param CreditCardInterface $creditCard
-     * @return Information
-     */
-    protected function setCreditCard(CreditCardInterface $creditCard)
-    {
-        $this->creditCard = $creditCard;
         return $this;
     }
 

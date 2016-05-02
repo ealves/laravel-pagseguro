@@ -4,9 +4,7 @@ namespace laravel\pagseguro\Tests\Unit\Checkout;
 
 use laravel\pagseguro\Address\Address;
 use laravel\pagseguro\Checkout\SimpleCheckout;
-use laravel\pagseguro\Document\DocumentCollection;
 use laravel\pagseguro\Item\ItemCollection;
-use laravel\pagseguro\Phone\Phone;
 use laravel\pagseguro\Sender\Sender;
 use laravel\pagseguro\Shipping\Shipping;
 
